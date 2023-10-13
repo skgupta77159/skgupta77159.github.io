@@ -4,7 +4,7 @@ import ProjCard from './ProjCard'
 
 const Projects = () => {
     return (
-        <Styled.ProjectSection>
+        <Styled.ProjectSection id="projects">
             <Styled.ProjectHeading>Projects</Styled.ProjectHeading>
             <Styled.ProjectContent className='reveal fade-up'>
                 {

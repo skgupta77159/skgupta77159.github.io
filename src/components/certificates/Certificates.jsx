@@ -8,7 +8,7 @@ const Certificates = () => {
     };
 
     return (
-        <Styled.CertSection>
+        <Styled.CertSection id="achievements">
             <Styled.CertHeading>Achievements And Certifications 🏆</Styled.CertHeading>
             <Styled.CertContent>
                 {

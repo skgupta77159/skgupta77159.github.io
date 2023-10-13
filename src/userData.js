@@ -10,7 +10,7 @@ const intro = {
 }
 
 const whatIDo = {
-    education: "B.E Computer Engineering",
+    education: "B.E Computer Engineering (University of Mumbai)",
     location: "Mumbai, Maharashtra, India",
     aboutTitle: "Crazy Full Stack Developer Who Wants to Explore Every Tech Stack",
     whatIDoDescription: "~  Develop highly interactive Front end / User Interfaces for your web and mobile applications <br></br>~  Progressive Web Applications ( PWA ) in normal and SPA Stacks <br></br>~  Integration of third party services such as Firebase/ AWS / Digital Ocean..",
@@ -89,28 +89,28 @@ const socialIcons = [
         name: "GitHub",
         color: "#333333",
         image: GithubIcon,
-        link: "https://www.google.com/",
+        link: "https://github.com/skgupta77159",
     },
     {
         id: "linkedin",
         name: "LinkedIn",
         color: "#0072B1",
         image: LinkedinIcon,
-        link: "https://www.google.com/",
+        link: "https://www.linkedin.com/in/sushil-kumar-gupta/",
     },
     {
         id: "medium",
         name: "Medium",
         color: "#000000",
         image: MediumIcon,
-        link: "https://www.google.com/",
+        link: "https://medium.com/@guptasushil77159",
     },
     {
         id: "facebook",
         name: "Facebook",
         color: "#4267B2",
         image: FacebookIcon,
-        link: "https://www.google.com/",
+        link: "https://www.facebook.com/profile.php?id=100021203409404",
     },
 ]
 
@@ -163,4 +163,20 @@ const certificates = [
     },
 ]
 
-export { intro, socialIcons, whatIDo, experiences, projects, certificates }
+const blogs = [
+    {
+        title: "The complete guide to creating your bot in Webex space from dev to prod✌️",
+        description: "This blog covered the whole process from provisioning a bot to Submitting to the Webex App hub. It can save an enormous amount of time for developers and they can focus on the business logic.",
+        link: "https://medium.com/videowiki-pt/the-complete-guide-to-creating-your-bot-in-webex-space-from-dev-to-prod-7af29d9372f1",
+    },
+]
+
+export { 
+    intro, 
+    socialIcons, 
+    whatIDo, 
+    experiences, 
+    projects,
+    blogs, 
+    certificates,
+}

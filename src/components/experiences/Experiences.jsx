@@ -4,8 +4,8 @@ import ExpCard from './ExpCard'
 
 const Experiences = () => {
     return (
-        <Styled.ExpSection>
-            <Styled.ExpHeading>Experiences</Styled.ExpHeading>
+        <Styled.ExpSection id="experiences">
+            <Styled.ExpHeading>Professional Experiences</Styled.ExpHeading>
             <Styled.ExpContent>
                 {
                     experiences.map((experience, id) => {

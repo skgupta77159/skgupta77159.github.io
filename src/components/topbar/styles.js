@@ -67,6 +67,10 @@ const TopbarMenu = styled.ul`
         font-weight: 400;
         line-height: normal;
         cursor: pointer;
+
+        &:hover {
+            color: ${({ theme }) => theme.colors.textBlue};
+        }
     }
     span {
         font-size: 26px;

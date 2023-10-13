@@ -1,6 +1,9 @@
 import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyles = createGlobalStyle`
+    html {
+        scroll-behavior: smooth;
+    }
     body {
         background-color: ${({ theme }) => theme.colors.primary};
         color: ${({ theme }) => theme.colors.textLight};
@@ -32,6 +35,7 @@ export const lightTheme = {
         textDark: "#3D4047",
         textDarkest: "#5C5F66",
         borderMain: "#4E5569",
+        cardHoverBg: "#F9F9F9",
     },
     fonts: {
         primary: 'IBM Plex Sans',
@@ -54,6 +58,7 @@ export const darkTheme = {
         textDark: "#C2C8CC",
         textDarkest: "#9DA2A6",
         borderMain: "#4E5569",
+        cardHoverBg: "#55198b",
     },
     fonts: {
         primary: 'IBM Plex Sans',

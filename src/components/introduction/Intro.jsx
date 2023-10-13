@@ -9,7 +9,7 @@ const Intro = () => {
             <Styled.IntroMain>
                 <Styled.IntroLeft>
                     <h1>Hi all <p>👋</p></h1>
-                    <h1>I’m <span>{intro.name}</span> 👨‍💻</h1>
+                    <h1 className='nameTitle'>I’m&nbsp;<span>{intro.name}</span> 👨‍💻</h1>
                     <h2>{intro.shortTitle}</h2>
                     <p>{intro.description}</p>
                     <Styled.IntroSocial>

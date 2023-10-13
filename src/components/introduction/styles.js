@@ -8,11 +8,11 @@ const floatingAnimation = keyframes`
 
 const sayHi = keyframes`
     0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
+   10% { transform: rotate(18.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-10.0deg) }
+   30% { transform: rotate(18.0deg) }
+   40% { transform: rotate(-8.0deg) }
+   50% { transform: rotate(14.0deg) }
    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
   100% { transform: rotate( 0.0deg) }
 `
@@ -69,6 +69,11 @@ const IntroLeft = styled.div`
     display: flex;
     flex-direction: column;
     flex: 1;
+    .nameTitle {
+        border-bottom: 2px solid transparent;
+        border-image: linear-gradient(0.25turn, rgba(255,249,34), rgba(255,0,128), rgba(56,2,155,0));
+        border-image-slice: 1;
+    }
     h1 {
         color: ${({ theme }) => theme.colors.textLight};
         font-size: ${({ theme }) => theme.fontSizes.medium};

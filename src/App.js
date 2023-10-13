@@ -7,6 +7,7 @@ import Intro from './components/introduction/Intro';
 import About from './components/about/About';
 import Experiences from './components/experiences/Experiences';
 import Projects from './components/projects/Projects';
+import Blogs from './components/blogs/Blogs'
 import Certificates from './components/certificates/Certificates';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
@@ -70,6 +71,7 @@ function App() {
         <About />
         <Experiences />
         <Projects />
+        <Blogs />
         <Certificates />
         <Contact />
         <Footer />

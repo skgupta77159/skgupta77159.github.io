@@ -7,7 +7,7 @@ import parse from 'html-react-parser';
 
 const About = () => {
     return (
-        <Styled.AboutSection>
+        <Styled.AboutSection id="about">
             <Styled.AboutLeft>
                 <img src={ProfileImage} alt="profile image"/>
                 <p><GraduateIcon/> {whatIDo.education}</p>

@@ -3,7 +3,7 @@ import Styled from './styles'
 const Contact = () => {
 
     return (
-        <Styled.ContactSection>
+        <Styled.ContactSection id="contacts">
             {/* <Styled.ContactHeading>Contact</Styled.ContactHeading> */}
             <Styled.ContactContent>
                 <h2>Reach out to me!</h2>

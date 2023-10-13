@@ -39,9 +39,9 @@ const Topbar = (props) => {
                 <li><a href="#about">About</a></li>
                 <li><a href="#experiences">Experiences</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#blogs">Blogs</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contacts">Contacts</a></li>
                 <li onClick={props.toggleTheme}>{props.isDarkTheme ? <span aria-label="Light mode" role="img">🌞</span> :
                     <span aria-label="Dark mode" role="img">🌜</span>}</li>
             </Styled.TopbarMenu>
