@@ -1,19 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.31d6cfe0.css",
-    "main.js": "/static/js/main.b84e8a25.js",
+    "main.js": "/static/js/main.60be4126.js",
     "static/media/profileImage.jpg": "/static/media/profileImage.b3d5ff9c1b5d366744ee.jpg",
+    "static/media/mystore.webp": "/static/media/mystore.9ada0d69cc2420873657.webp",
+    "static/media/desto.webp": "/static/media/desto.a5a633196ae6c10bd963.webp",
+    "static/media/portfolio.webp": "/static/media/portfolio.b50f6dcb4e7e41d5d964.webp",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/mycourses.webp": "/static/media/mycourses.5a1cb393123e902c0366.webp",
+    "static/media/ternalogin.webp": "/static/media/ternalogin.e2f554b526f66ef67b2b.webp",
     "index.html": "/index.html",
-    "static/media/Medium.svg": "/static/media/Medium.f447f51ea7a308d40fb0abff3636cd1a.svg",
-    "static/media/GitHub.svg": "/static/media/GitHub.d8a709cfd5bedb95d3519b9a40edc924.svg",
-    "static/media/LinkedIn.svg": "/static/media/LinkedIn.25911b33c6b02ca6568122a9c33c43f5.svg",
-    "static/media/Facebook.svg": "/static/media/Facebook.9c1bfad69d735c357adbc7964d121b5c.svg",
-    "static/media/arrowDown.svg": "/static/media/arrowDown.f6f5bddcfaa562422242b1f6aa31e1d6.svg",
-    "main.b84e8a25.js.map": "/static/js/main.b84e8a25.js.map"
+    "static/media/Medium.svg": "/static/media/Medium.e95e7b5bb31367dd379f704b32443941.svg",
+    "static/media/GitHub.svg": "/static/media/GitHub.5c5d3a784993452c334682a4233430b5.svg",
+    "static/media/LinkedIn.svg": "/static/media/LinkedIn.99f68672143143b92f62a4eac5e344a5.svg",
+    "static/media/Facebook.svg": "/static/media/Facebook.22b3de629ba1b4009f2cac3d2d1ade0e.svg",
+    "static/media/arrowDown.svg": "/static/media/arrowDown.e8889c4e787e61f247871ef16e023c4c.svg",
+    "main.60be4126.js.map": "/static/js/main.60be4126.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.b84e8a25.js"
+    "static/js/main.60be4126.js"
   ]
 }
