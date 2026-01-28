@@ -1,0 +1,10 @@
+# Ignore node_modules to let Docker handle dependencies
+node_modules
+# Ignore the build directory as it will be created inside the container
+build
+# Ignore Git-related files
+.git
+# Ignore development-specific files
+.dockerignore
+Dockerfile
+<!-- nginx.conf -->
