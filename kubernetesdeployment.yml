@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: portfolio-deployment
+  labels:
+    app: skgupta77159githubio-react-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: skgupta77159githubio-react-app
+  template:
+    metadata:
+      labels:
+        app: skgupta77159githubio-react-app 
+    spec:
+      containers:
+      - name: sushil-react-app
+        image: skgupta77159/skgupta77159githubio-react-app:latest
+        ports:
+        - containerPort: 80
