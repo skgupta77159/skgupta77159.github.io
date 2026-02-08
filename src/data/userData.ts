@@ -1,0 +1,469 @@
+import GithubIcon from "../assets/social/GitHub.svg";
+import LinkedinIcon from "../assets/social/LinkedIn.svg";
+import MediumIcon from "../assets/social/Medium.svg";
+import FacebookIcon from "../assets/social/Facebook.svg";
+
+/* =======================
+   TYPES
+======================= */
+
+export type Intro = {
+  name: string;
+  shortTitle: string;
+  description: string;
+};
+
+export type WhatIDo = {
+  education: string;
+  location: string;
+  aboutTitle: string;
+  whatIDoDescription: string;
+};
+
+export interface Skill {
+  id: string;
+  name: string;
+  badgeUrl: string;
+}
+
+export type Career = {
+  role: string;
+  duration: string;
+  employmentType: string;
+  fromDate: string;
+  toDate: string;
+  description: string[];
+};
+
+export type Experience = {
+  companyName: string;
+  location: string;
+  logo: string;
+  career: Career[];
+};
+
+export type SocialIcon = {
+  id: string;
+  name: string;
+  color: string;
+  image: string;
+  link: string;
+};
+
+export type Project = {
+  name: string;
+  image: string;
+  type: string;
+  techStack: string;
+  sourceCode: string;
+  demoLink: string;
+  shortDescription: string;
+};
+
+export type Certificate = {
+  title: string;
+  image: string;
+};
+
+export type Blog = {
+  title: string;
+  description: string;
+  link: string;
+};
+
+/* =======================
+   DATA
+======================= */
+
+export const intro: Intro = {
+  name: "Sushil Gupta",
+  shortTitle: "A passionate Android & Web Developer",
+  description:
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Java and some other cool libraries and frameworks.",
+};
+
+export const whatIDo: WhatIDo = {
+  education: "B.E Computer Engineering (University of Mumbai)",
+  location: "Mumbai, Maharashtra, India",
+  aboutTitle:
+    "Crazy Full Stack Developer Who Wants to Explore Every Tech Stack",
+  whatIDoDescription:
+    "~ Develop highly interactive Front end / User Interfaces for your web and mobile applications <br></br>" +
+    "~ Progressive Web Applications ( PWA ) in normal and SPA Stacks <br></br>" +
+    "~ Integration of third party services such as Firebase / AWS / Digital Ocean..",
+};
+
+export const skills: Skill[] = [
+  {
+    id: "javascript",
+    name: "JavaScript",
+    badgeUrl:
+      "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+  },
+  {
+    id: "java",
+    name: "Java",
+    badgeUrl:
+      "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white",
+  },
+  {
+    id: "html5",
+    name: "HTML5",
+    badgeUrl:
+      "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white",
+  },
+  {
+    id: "python",
+    name: "Python",
+    badgeUrl:
+      "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54",
+  },
+  {
+    id: "typescript",
+    name: "TypeScript",
+    badgeUrl:
+      "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white",
+  },
+  {
+    id: "aws",
+    name: "AWS",
+    badgeUrl:
+      "https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white",
+  },
+  {
+    id: "azure",
+    name: "Azure",
+    badgeUrl:
+      "https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white",
+  },
+  {
+    id: "google-cloud",
+    name: "Google Cloud",
+    badgeUrl:
+      "https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white",
+  },
+  {
+    id: "firebase",
+    name: "Firebase",
+    badgeUrl:
+      "https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase",
+  },
+  {
+    id: "heroku",
+    name: "Heroku",
+    badgeUrl:
+      "https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white",
+  },
+  {
+    id: "cloudflare",
+    name: "Cloudflare",
+    badgeUrl:
+      "https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white",
+  },
+  {
+    id: "angular",
+    name: "Angular",
+    badgeUrl:
+      "https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white",
+  },
+  {
+    id: "nodejs",
+    name: "Node.js",
+    badgeUrl:
+      "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+  },
+  {
+    id: "react",
+    name: "React",
+    badgeUrl:
+      "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+  },
+  {
+    id: "redux",
+    name: "Redux",
+    badgeUrl:
+      "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white",
+  },
+  {
+    id: "vue",
+    name: "Vue.js",
+    badgeUrl:
+      "https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D",
+  },
+  {
+    id: "tailwindcss",
+    name: "Tailwind CSS",
+    badgeUrl:
+      "https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white",
+  },
+  {
+    id: "jenkins",
+    name: "Jenkins",
+    badgeUrl:
+      "https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white",
+  },
+  {
+    id: "nginx",
+    name: "Nginx",
+    badgeUrl:
+      "https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white",
+  },
+  {
+    id: "mongodb",
+    name: "MongoDB",
+    badgeUrl:
+      "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white",
+  },
+  {
+    id: "mysql",
+    name: "MySQL",
+    badgeUrl:
+      "https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white",
+  },
+  {
+    id: "sqlite",
+    name: "SQLite",
+    badgeUrl:
+      "https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white",
+  },
+  {
+    id: "postgresql",
+    name: "PostgreSQL",
+    badgeUrl:
+      "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white",
+  },
+  {
+    id: "canva",
+    name: "Canva",
+    badgeUrl:
+      "https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white",
+  },
+  {
+    id: "figma",
+    name: "Figma",
+    badgeUrl:
+      "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white",
+  },
+  {
+    id: "git",
+    name: "Git",
+    badgeUrl:
+      "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white",
+  },
+  {
+    id: "github",
+    name: "GitHub",
+    badgeUrl:
+      "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white",
+  },
+  {
+    id: "gitlab",
+    name: "GitLab",
+    badgeUrl:
+      "https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white",
+  },
+  {
+    id: "jest",
+    name: "Jest",
+    badgeUrl:
+      "https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white",
+  },
+  {
+    id: "jira",
+    name: "Jira",
+    badgeUrl:
+      "https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white",
+  },
+  {
+    id: "kubernetes",
+    name: "Kubernetes",
+    badgeUrl:
+      "https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white",
+  },
+  {
+    id: "grafana",
+    name: "Grafana",
+    badgeUrl:
+      "https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white",
+  },
+  {
+    id: "docker",
+    name: "Docker",
+    badgeUrl:
+      "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
+  },
+  {
+    id: "postman",
+    name: "Postman",
+    badgeUrl:
+      "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white",
+  },
+];
+
+export const experiences: Experience[] = [
+  {
+    companyName: "GetBoarded Technologies LDA",
+    location: "Portugal, Remote",
+    logo: "https://media.licdn.com/dms/image/v2/D560BAQFMUvMMh3HaOw/company-logo_200_200/company-logo_200_200/0/1714748842206/getboarded_logo?e=2147483647&v=beta&t=O45Z7BWuZIZwTeWbENgduELpycqIPxgf2WnU8Jgy4aE",
+    career: [
+      {
+        role: "Full Stack Engineer",
+        duration: "2.6 Years",
+        employmentType: "Full-Time",
+        fromDate: "July 2023",
+        toDate: "Present",
+        description: [
+          "Enhancing core web conferencing products using Docker for efficient deployment and implementing horizontal scaling.",
+          "Leading a front-end revamp to improve cross-device user experiences.",
+          "Active contributor within cross-functional agile teams.",
+        ],
+      },
+    ],
+  },
+  {
+    companyName: "Arbunize",
+    location: "Delhi, Remote",
+    logo: "https://media.glassdoor.com/sqll/1739084/arbunize-squarelogo-1501570256734.png",
+    career: [
+      {
+        role: "Full Stack Developer",
+        duration: "1 Year",
+        employmentType: "Part-Time",
+        fromDate: "Aug 2022",
+        toDate: "Jul 2023",
+        description: [
+          "Design and re-develop public-facing platform using HTML, CSS, JavaScript, and React.js.",
+        ],
+      },
+      {
+        role: "Application Developer",
+        duration: "6 Months",
+        employmentType: "Internship",
+        fromDate: "Feb 2022",
+        toDate: "Jul 2022",
+        description: [
+          "Managed user-reported issues and conducted regression testing.",
+        ],
+      },
+    ],
+  },
+  {
+    companyName: "MissionEd",
+    location: "Kolkata, Remote",
+    logo: "https://media.licdn.com/dms/image/C4E0BAQFCG7lsaKE3OA/company-logo_200_200/0/1594900264723?e=2147483647&v=beta&t=Dye9t0L4Y6fs2cNB7T58Dox_87WqfWL3lIxk9SDjNiU",
+    career: [
+      {
+        role: "ReactJS Web Developer",
+        duration: "5 Months",
+        employmentType: "Internship",
+        fromDate: "Aug 2021",
+        toDate: "Dec 2021",
+        description: [
+          "Developed reusable components utilizing ReactJS while enhancing state management.",
+          "Built an admin panel for facilitating online tests and significantly improved test creation speed, achieving a 10x increase in efficiency. Acquired practical experience working with ReactJS, including Redux, Hooks, and Flux.",
+        ],
+      },
+    ],
+  },
+];
+
+export const socialIcons: SocialIcon[] = [
+  {
+    id: "github",
+    name: "GitHub",
+    color: "#333333",
+    image: GithubIcon,
+    link: "https://github.com/skgupta77159",
+  },
+  {
+    id: "linkedin",
+    name: "LinkedIn",
+    color: "#0072B1",
+    image: LinkedinIcon,
+    link: "https://www.linkedin.com/in/sushil-kumar-gupta/",
+  },
+  {
+    id: "medium",
+    name: "Medium",
+    color: "#000000",
+    image: MediumIcon,
+    link: "https://medium.com/@guptasushil77159",
+  },
+  {
+    id: "facebook",
+    name: "Facebook",
+    color: "#4267B2",
+    image: FacebookIcon,
+    link: "https://www.facebook.com/profile.php?id=100021203409404",
+  },
+];
+
+export const projects: Project[] = [
+  {
+    name: "Portfolio",
+    image:
+      "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/portfolio_pfs9ju.jpg",
+    type: "Web Application",
+    techStack: "ReactJS Firebase",
+    sourceCode: "https://github.com/skgupta77159/",
+    demoLink: "https://skgupta77159.github.io/",
+    shortDescription: "My beautiful portfolio built using ReactJS.",
+  },
+  {
+    name: "MyCourses",
+    image:
+      "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/MyCourses-banner_tspd4z.jpg",
+    type: "Android App",
+    techStack: "Java Firebase AndroidStudio",
+    sourceCode: "https://github.com/skgupta77159/MyCourses-App",
+    demoLink:
+      "https://drive.google.com/file/d/1DQHAKzjwdxySw0hvn0UTYVFav9Db4n5B/view?usp=sharing",
+    shortDescription:
+      "Free programming video lectures App for Absolute Beginner student.",
+  },
+  {
+    name: "TernaLogin",
+    image:
+      "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/TernaLogin-banner_u7qp2t.jpg",
+    type: "Android App",
+    techStack: "Java Firebase AndroidStudio",
+    sourceCode: "https://github.com/skgupta77159/TernaLogin",
+    demoLink:
+      "https://drive.google.com/file/d/1DQHAKzjwdxySw0hvn0UTYVFav9Db4n5B/view?usp=sharing",
+    shortDescription:
+      "TernaLogin is a Attendance system App which help faculty to take, manage and analyse student Attendance.",
+  },
+];
+
+export const certificates: Certificate[] = [
+  {
+    title: "Linux",
+    image:
+      "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/Sushil_KumarGupta-NDG_Linux_Essent-certificate_zzt5z9_lij0ru.webp",
+  },
+  {
+    title: "AWS",
+    image:
+      "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/Coursera_NVYJUA6PNKJ9_msco9s_jmxpyb.webp",
+  },
+  {
+    title: "Google",
+    image:
+      "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/javascript_hmeymr_zxuif3.webp",
+  },
+  {
+    title: "tcs",
+    image:
+      "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/tcs_w1wnno_pdmj8b.webp",
+  },
+];
+
+export const blogs: Blog[] = [
+  {
+    title:
+      "The complete guide to creating your bot in Webex space from dev to prod✌️",
+    description:
+      "This blog covered the whole process from provisioning a bot to Submitting to the Webex App hub. It can save an enormous amount of time for developers and they can focus on the business logic.",
+    link: "https://medium.com/videowiki-pt/the-complete-guide-to-creating-your-bot-in-webex-space-from-dev-to-prod-7af29d9372f1",
+  },
+];
