@@ -13,6 +13,10 @@ const DropdownSelect = styled.select`
     outline: none;
     box-shadow: none;
   }
+
+  option {
+    text-align: left;
+  }
 `;
 
 export default {
