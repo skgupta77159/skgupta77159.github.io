@@ -12,11 +12,21 @@ import Certificates from "./components/certificates/Certificates";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Skills from "./components/skills/Skills";
+import Spinner from "./components/spinner/Spinner";
+
+type Theme = "dark" | "light";
 
 function App() {
-  const [theme, setTheme] = useState("dark");
-  const isDarkTheme = theme === "dark";
-  const toggleTheme = () => setTheme(isDarkTheme ? "light" : "dark");
+  const [theme, setTheme] = useState<Theme>(
+    () => (localStorage.getItem("theme") as Theme) ?? "dark",
+  );
+  const toggleTheme = () => {
+    setTheme((prev) => {
+      const nextTheme: Theme = prev === "dark" ? "light" : "dark";
+      localStorage.setItem("theme", nextTheme);
+      return nextTheme;
+    });
+  };
   const lastScrollTop = useRef(0);
 
   useEffect(() => {
@@ -63,11 +73,11 @@ function App() {
   }, []); // Empty dependency array to ensure it runs once
 
   return (
-    <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
-      <Suspense fallback="loading...">
+    <ThemeProvider theme={theme === "dark" ? darkTheme : lightTheme}>
+      <Suspense fallback={<Spinner />}>
         <div className="App">
           <GlobalStyles />
-          <Topbar toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
+          <Topbar toggleTheme={toggleTheme} isDarkTheme={theme === "dark"} />
           <Intro />
           <About />
           <Skills />
