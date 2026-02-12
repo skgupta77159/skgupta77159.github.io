@@ -12,6 +12,7 @@ import Certificates from "./components/certificates/Certificates";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Skills from "./components/skills/Skills";
+import Spinner from "./components/spinner/Spinner";
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -64,7 +65,7 @@ function App() {
 
   return (
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
-      <Suspense fallback="loading...">
+      <Suspense fallback={<Spinner />}>
         <div className="App">
           <GlobalStyles />
           <Topbar toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
