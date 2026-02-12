@@ -1,0 +1,415 @@
+{
+  "menu": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "experiences": "Experiencia",
+    "projects": "Proyectos",
+    "blogs": "Blogs",
+    "achievements": "Logros",
+    "contacts": "Contactos"
+  },
+
+  "intro": {
+    "greet": "Hola a todos <1>👋</1>",
+    "namePrefix": "Soy",
+    "name": "Sushil Gupta",
+    "shortTitle": "Ingeniero de Software",
+    "description": "Ingeniero de Software Full Stack orientado a resultados con más de 2 años de experiencia diseñando, desarrollando y escalando aplicaciones web de nivel de producción. Experto en React, TypeScript y Node.js, con un fuerte sentido de propiedad en la entrega de funcionalidades de extremo a extremo, optimización de rendimiento y fiabilidad del sistema en entornos distribuidos y multifuncionales.",
+    "scroll": "Deslizar hacia abajo"
+  },
+
+  "socialIcons": [
+    {
+      "id": "github",
+      "name": "GitHub",
+      "color": "#333333",
+      "image": "GithubIcon",
+      "link": "https://github.com/skgupta77159"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "color": "#0072B1",
+      "image": "LinkedinIcon",
+      "link": "https://www.linkedin.com/in/sushil-kumar-gupta/"
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "color": "#000000",
+      "image": "MediumIcon",
+      "link": "https://medium.com/@guptasushil77159"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "color": "#4267B2",
+      "image": "FacebookIcon",
+      "link": "https://www.facebook.com/profile.php?id=100021203409404"
+    }
+  ],
+
+  "whatIDo": {
+    "whatIDoLabel": "¿Qué hago?",
+    "education": "Grado en Ingeniería Informática (Universidad de Mumbai)",
+    "location": "Mumbai, Maharashtra, India",
+    "aboutTitle": "Ingeniero de Software Full Stack especializado en plataformas web escalables",
+    "whatIDoDescription": "~ Diseño y desarrollo aplicaciones web escalables, mantenibles y de alto rendimiento utilizando React, TypeScript y JavaScript moderno <1></1>~ Arquitectura e integración de servicios backend RESTful seguros con Node.js y Express, siguiendo las mejores prácticas de la industria <1></1>~ Optimización del rendimiento frontend, accesibilidad y compatibilidad entre navegadores mediante una arquitectura de componentes reutilizables <1></1>~ Colaboración en equipos ágiles y multifuncionales, contribuyendo a pipelines de CI/CD, despliegues en contenedores y preparación para producción"
+  },
+
+  "skill": {
+    "skillsTitle": "Habilidades Técnicas 💻",
+    "skills": [
+      {
+        "id": "javascript",
+        "name": "JavaScript",
+        "badgeUrl": "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+      },
+      {
+        "id": "java",
+        "name": "Java",
+        "badgeUrl": "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"
+      },
+      {
+        "id": "html5",
+        "name": "HTML5",
+        "badgeUrl": "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+      },
+      {
+        "id": "python",
+        "name": "Python",
+        "badgeUrl": "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+      },
+      {
+        "id": "typescript",
+        "name": "TypeScript",
+        "badgeUrl": "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+      },
+      {
+        "id": "aws",
+        "name": "AWS",
+        "badgeUrl": "https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"
+      },
+      {
+        "id": "azure",
+        "name": "Azure",
+        "badgeUrl": "https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white"
+      },
+      {
+        "id": "google-cloud",
+        "name": "Google Cloud",
+        "badgeUrl": "https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"
+      },
+      {
+        "id": "firebase",
+        "name": "Firebase",
+        "badgeUrl": "https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"
+      },
+      {
+        "id": "heroku",
+        "name": "Heroku",
+        "badgeUrl": "https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"
+      },
+      {
+        "id": "cloudflare",
+        "name": "Cloudflare",
+        "badgeUrl": "https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"
+      },
+      {
+        "id": "angular",
+        "name": "Angular",
+        "badgeUrl": "https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"
+      },
+      {
+        "id": "nodejs",
+        "name": "Node.js",
+        "badgeUrl": "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+      },
+      {
+        "id": "react",
+        "name": "React",
+        "badgeUrl": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+      },
+      {
+        "id": "redux",
+        "name": "Redux",
+        "badgeUrl": "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"
+      },
+      {
+        "id": "vue",
+        "name": "Vue.js",
+        "badgeUrl": "https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D"
+      },
+      {
+        "id": "tailwindcss",
+        "name": "Tailwind CSS",
+        "badgeUrl": "https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"
+      },
+      {
+        "id": "jenkins",
+        "name": "Jenkins",
+        "badgeUrl": "https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white"
+      },
+      {
+        "id": "nginx",
+        "name": "Nginx",
+        "badgeUrl": "https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white"
+      },
+      {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "badgeUrl": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
+      },
+      {
+        "id": "mysql",
+        "name": "MySQL",
+        "badgeUrl": "https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"
+      },
+      {
+        "id": "sqlite",
+        "name": "SQLite",
+        "badgeUrl": "https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white"
+      },
+      {
+        "id": "postgresql",
+        "name": "PostgreSQL",
+        "badgeUrl": "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"
+      },
+      {
+        "id": "canva",
+        "name": "Canva",
+        "badgeUrl": "https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"
+      },
+      {
+        "id": "figma",
+        "name": "Figma",
+        "badgeUrl": "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"
+      },
+      {
+        "id": "git",
+        "name": "Git",
+        "badgeUrl": "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
+      },
+      {
+        "id": "github",
+        "name": "GitHub",
+        "badgeUrl": "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
+      },
+      {
+        "id": "gitlab",
+        "name": "GitLab",
+        "badgeUrl": "https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"
+      },
+      {
+        "id": "jest",
+        "name": "Jest",
+        "badgeUrl": "https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white"
+      },
+      {
+        "id": "jira",
+        "name": "Jira",
+        "badgeUrl": "https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"
+      },
+      {
+        "id": "kubernetes",
+        "name": "Kubernetes",
+        "badgeUrl": "https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"
+      },
+      {
+        "id": "grafana",
+        "name": "Grafana",
+        "badgeUrl": "https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white"
+      },
+      {
+        "id": "docker",
+        "name": "Docker",
+        "badgeUrl": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"
+      },
+      {
+        "id": "postman",
+        "name": "Postman",
+        "badgeUrl": "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"
+      }
+    ]
+  },
+
+  "experience": {
+    "experienceTitle": "Experiencia Profesional 👨🏻‍💻",
+    "experiences": [
+      {
+        "companyName": "GetBoarded Technologies LDA",
+        "location": "Portugal (Remoto)",
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQFMUvMMh3HaOw/company-logo_200_200/company-logo_200_200/0/1714748842206/getboarded_logo?e=2147483647&v=beta&t=O45Z7BWuZIZwTeWbENgduELpycqIPxgf2WnU8Jgy4aE",
+        "career": [
+          {
+            "role": "Ingeniero de Software",
+            "duration": "2.6 Años",
+            "employmentType": "Jornada Completa",
+            "fromDate": "Julio 2023",
+            "toDate": "Actualidad",
+            "description": [
+              "Contribución a Decast.live, una plataforma descentralizada de live-casting y medios enfocada en infraestructura de internet que preserva la privacidad.",
+              "Desarrollo y mantenimiento de interfaces frontend utilizando React.js y Vue.js, habilitando videoconferencias seguras para 150–200 usuarios concurrentes.",
+              "Implementación de sistemas de control de acceso basados en NFT (NFT gating y airdrops) en colaboración con equipos de blockchain.",
+              "Refactorización de un algoritmo de emparejamiento de equipos por fuerza bruta a un sistema de programación Round-Robin optimizado, logrando tiempos de respuesta 10 veces más rápidos.",
+              "Mejora de la escalabilidad y fiabilidad de la aplicación mediante una arquitectura de componentes reutilizables, gestión de estado optimizada y prácticas estructuradas de SDLC.",
+              "Colaboración estrecha con equipos de backend, blockchain y producto mediante revisiones de código y flujos de trabajo ágiles, brindando soporte a usuarios en más de 40 países."
+            ]
+          }
+        ]
+      },
+      {
+        "companyName": "Arbunize Digital Media Pvt Ltd",
+        "location": "Delhi, India (Remoto)",
+        "logo": "https://media.glassdoor.com/sqll/1739084/arbunize-squarelogo-1501570256734.png",
+        "career": [
+          {
+            "role": "Desarrollador Full Stack",
+            "duration": "1 Año",
+            "employmentType": "Media Jornada",
+            "fromDate": "Ago 2022",
+            "toDate": "Jul 2023",
+            "description": [
+              "Desarrollo de hooks personalizados de React e integración de un bot de automatización impulsado por IA para convertir texto y documentos en escenas de video, reduciendo el esfuerzo manual en un 50%.",
+              "Contribución a una aplicación empresarial publicada en Webex App Hub, cumpliendo con los estándares de despliegue y calidad."
+            ]
+          },
+          {
+            "role": "Desarrollador de Aplicaciones",
+            "duration": "6 Meses",
+            "employmentType": "Pasantía",
+            "fromDate": "Feb 2022",
+            "toDate": "Jul 2022",
+            "description": [
+              "Construcción y optimización de componentes de interfaz de usuario reutilizables y APIs REST utilizando React.js, JavaScript y Node.js."
+            ]
+          }
+        ]
+      },
+      {
+        "companyName": "MissionEd",
+        "location": "Kolkata, India (Remoto)",
+        "logo": "https://media.licdn.com/dms/image/C4E0BAQFCG7lsaKE3OA/company-logo_200_200/0/1594900264723?e=2147483647&v=beta&t=Dye9t0L4Y6fs2cNB7T58Dox_87WqfWL3lIxk9SDjNiU",
+        "career": [
+          {
+            "role": "Pasante de Desarrollo Web ReactJS",
+            "duration": "3 Meses",
+            "employmentType": "Pasantía",
+            "fromDate": "Ago 2021",
+            "toDate": "Dic 2021",
+            "description": [
+              "Desarrollo de un panel de administración escalable que soporta a más de 1,000 estudiantes concurrentes para evaluaciones en línea.",
+              "Implementación de autenticación JWT y Google OAuth, control de acceso basado en roles y operaciones CRUD utilizando el stack MERN.",
+              "Construcción de componentes reutilizables de React y mejora de la gestión de estado utilizando patrones modernos de React."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "project": {
+    "projectTitle": "Proyectos 🚀",
+    "sourceCodeLabel": "Código Fuente",
+    "liveDemoLabel": "Demo en Vivo",
+    "projects": [
+      {
+        "name": "Decast.live",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1770631949/decast_ss_qhvisq.png",
+        "type": "Aplicación Web",
+        "techStack": "React Vue.js TypeScript Node.js Docker Web3",
+        "sourceCode": "https://github.com/NGI-TRUSTCHAIN/Decast/commits/main?author=skgupta77159",
+        "demoLink": "https://beta.decast.live/",
+        "shortDescription": "Automatiza completamente tus flujos de trabajo de Live Casting y publicación de contenido con IA Generativa."
+      },
+      {
+        "name": "Desto",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1770631922/desto_pvfdmz.webp",
+        "type": "Aplicación Web",
+        "techStack": "Web3.Storage ReactJS MongoDB NodeJs",
+        "sourceCode": "https://github.com/medstore/blockchain-storage",
+        "demoLink": "https://desto.onrender.com/",
+        "shortDescription": "Una aplicación de almacenamiento descentralizado seguro para almacenar y cargar imágenes y archivos en una red distribuida sobre IPFS con autenticación completa."
+      },
+      {
+        "name": "MyStore",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1770632050/mystore_tphj5l.webp",
+        "type": "Aplicación Web",
+        "techStack": "ReactJS Firebase",
+        "sourceCode": "https://github.com/skgupta77159/ecommerce-flask",
+        "demoLink": "https://mystore-app.onrender.com/",
+        "shortDescription": "Plataforma de comercio electrónico en línea con un conjunto completo de funcionalidades, incluyendo un panel de administración para vendedores. Implementación de búsqueda de productos mediante Geolocation API y visualización de ubicaciones de tiendas en un mapa."
+      },
+      {
+        "name": "Portfolio",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/portfolio_pfs9ju.jpg",
+        "type": "Aplicación Web",
+        "techStack": "ReactJS Firebase",
+        "sourceCode": "https://github.com/skgupta77159/",
+        "demoLink": "https://skgupta77159.github.io/",
+        "shortDescription": "Mi hermoso portafolio construido con ReactJS."
+      },
+      {
+        "name": "MyCourses",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/MyCourses-banner_tspd4z.jpg",
+        "type": "App Android",
+        "techStack": "Java Firebase AndroidStudio",
+        "sourceCode": "https://github.com/skgupta77159/MyCourses-App",
+        "demoLink": "https://drive.google.com/file/d/1DQHAKzjwdxySw0hvn0UTYVFav9Db4n5B/view?usp=sharing",
+        "shortDescription": "Aplicación gratuita de videoclases de programación para estudiantes principiantes."
+      },
+      {
+        "name": "TernaLogin",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/TernaLogin-banner_u7qp2t.jpg",
+        "type": "App Android",
+        "techStack": "Java Firebase AndroidStudio",
+        "sourceCode": "https://github.com/skgupta77159/TernaLogin",
+        "demoLink": "https://drive.google.com/file/d/1DQHAKzjwdxySw0hvn0UTYVFav9Db4n5B/view?usp=sharing",
+        "shortDescription": "TernaLogin es una aplicación de sistema de asistencia que ayuda a los profesores a registrar, gestionar y analizar la asistencia de los estudiantes."
+      }
+    ]
+  },
+
+  "blog": {
+    "blogsTitle": "Blogs y Artículos ✍️",
+    "blogs": [
+      {
+        "title": "La guía completa para crear tu bot en el espacio de Webex, desde el desarrollo hasta la producción",
+        "description": "Una guía exhaustiva que cubre el ciclo de vida completo de construcción, aprovisionamiento y publicación de un bot en el Webex App Hub.",
+        "link": "https://medium.com/videowiki-pt/the-complete-guide-to-creating-your-bot-in-webex-space-from-dev-to-prod-7af29d9372f1"
+      }
+    ]
+  },
+
+  "certificate": {
+    "certificateTitle": "Certificaciones 🏆",
+    "certificates": [
+      {
+        "title": "Linux",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/Sushil_KumarGupta-NDG_Linux_Essent-certificate_zzt5z9_lij0ru.webp"
+      },
+      {
+        "title": "AWS",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/Coursera_NVYJUA6PNKJ9_msco9s_jmxpyb.webp"
+      },
+      {
+        "title": "Google",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/javascript_hmeymr_zxuif3.webp"
+      },
+      {
+        "title": "tcs",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/tcs_w1wnno_pdmj8b.webp"
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "¡Contáctame!",
+    "subtitle": "¿Quieres hablar de un proyecto o simplemente decir hola? Estoy abierto a todas las oportunidades y conversaciones.",
+    "thankYouMessage": "¡Gracias por tu tiempo! Que tengas un excelente día y no dudes en conectar conmigo en LinkedIn."
+  },
+
+  "footer": {
+    "credit": "Diseñado y hecho con ❣️ por Sushil Kumar Gupta"
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "menu": {
+    "home": "首页",
+    "about": "关于我",
+    "experiences": "项目经验",
+    "projects": "项目展示",
+    "blogs": "博客文章",
+    "achievements": "个人成就",
+    "contacts": "联系方式"
+  },
+
+  "intro": {
+    "greet": "大家好 <1>👋</1>",
+    "namePrefix": "我是",
+    "name": "Sushil Gupta",
+    "shortTitle": "软件工程师",
+    "description": "结果导向型全栈软件工程师，拥有 2 年以上设计、开发和扩展生产级 Web 应用程序的经验。精通 React、TypeScript 和 Node.js，在分布式、跨职能环境中对端到端功能交付、性能优化和系统稳定性具有强大的掌控力。",
+    "scroll": "向下滚动"
+  },
+
+  "socialIcons": [
+    {
+      "id": "github",
+      "name": "GitHub",
+      "color": "#333333",
+      "image": "GithubIcon",
+      "link": "https://github.com/skgupta77159"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "color": "#0072B1",
+      "image": "LinkedinIcon",
+      "link": "https://www.linkedin.com/in/sushil-kumar-gupta/"
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "color": "#000000",
+      "image": "MediumIcon",
+      "link": "https://medium.com/@guptasushil77159"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "color": "#4267B2",
+      "image": "FacebookIcon",
+      "link": "https://www.facebook.com/profile.php?id=100021203409404"
+    }
+  ],
+
+  "whatIDo": {
+    "whatIDoLabel": "我的工作内容",
+    "education": "计算机工程学士（孟买大学）",
+    "location": "印度，马哈拉施特拉邦，孟买",
+    "aboutTitle": "专注于可扩展 Web 平台的全栈软件工程师",
+    "whatIDoDescription": "~ 使用 React、TypeScript 和现代 JavaScript 设计并开发可扩展、易维护且高性能的 Web 应用程序 <1></1>~ 遵循行业最佳实践，使用 Node.js 和 Express 构建并集成安全的 RESTful 后端服务 <1></1>~ 通过可复用的组件架构优化前端性能、无障碍访问（Accessibility）和跨浏览器兼容性 <1></1>~ 在敏捷、跨职能团队中协作，贡献于 CI/CD 流水线、容器化部署和生产就绪化"
+  },
+
+  "skill": {
+    "skillsTitle": "技术技能 💻",
+    "skills": [
+      {
+        "id": "javascript",
+        "name": "JavaScript",
+        "badgeUrl": "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+      },
+      {
+        "id": "java",
+        "name": "Java",
+        "badgeUrl": "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"
+      },
+      {
+        "id": "html5",
+        "name": "HTML5",
+        "badgeUrl": "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+      },
+      {
+        "id": "python",
+        "name": "Python",
+        "badgeUrl": "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+      },
+      {
+        "id": "typescript",
+        "name": "TypeScript",
+        "badgeUrl": "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+      },
+      {
+        "id": "aws",
+        "name": "AWS",
+        "badgeUrl": "https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"
+      },
+      {
+        "id": "azure",
+        "name": "Azure",
+        "badgeUrl": "https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white"
+      },
+      {
+        "id": "google-cloud",
+        "name": "Google Cloud",
+        "badgeUrl": "https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"
+      },
+      {
+        "id": "firebase",
+        "name": "Firebase",
+        "badgeUrl": "https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"
+      },
+      {
+        "id": "heroku",
+        "name": "Heroku",
+        "badgeUrl": "https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"
+      },
+      {
+        "id": "cloudflare",
+        "name": "Cloudflare",
+        "badgeUrl": "https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"
+      },
+      {
+        "id": "angular",
+        "name": "Angular",
+        "badgeUrl": "https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"
+      },
+      {
+        "id": "nodejs",
+        "name": "Node.js",
+        "badgeUrl": "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+      },
+      {
+        "id": "react",
+        "name": "React",
+        "badgeUrl": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+      },
+      {
+        "id": "redux",
+        "name": "Redux",
+        "badgeUrl": "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"
+      },
+      {
+        "id": "vue",
+        "name": "Vue.js",
+        "badgeUrl": "https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D"
+      },
+      {
+        "id": "tailwindcss",
+        "name": "Tailwind CSS",
+        "badgeUrl": "https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"
+      },
+      {
+        "id": "jenkins",
+        "name": "Jenkins",
+        "badgeUrl": "https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white"
+      },
+      {
+        "id": "nginx",
+        "name": "Nginx",
+        "badgeUrl": "https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white"
+      },
+      {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "badgeUrl": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
+      },
+      {
+        "id": "mysql",
+        "name": "MySQL",
+        "badgeUrl": "https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"
+      },
+      {
+        "id": "sqlite",
+        "name": "SQLite",
+        "badgeUrl": "https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white"
+      },
+      {
+        "id": "postgresql",
+        "name": "PostgreSQL",
+        "badgeUrl": "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"
+      },
+      {
+        "id": "canva",
+        "name": "Canva",
+        "badgeUrl": "https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"
+      },
+      {
+        "id": "figma",
+        "name": "Figma",
+        "badgeUrl": "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"
+      },
+      {
+        "id": "git",
+        "name": "Git",
+        "badgeUrl": "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
+      },
+      {
+        "id": "github",
+        "name": "GitHub",
+        "badgeUrl": "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
+      },
+      {
+        "id": "gitlab",
+        "name": "GitLab",
+        "badgeUrl": "https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"
+      },
+      {
+        "id": "jest",
+        "name": "Jest",
+        "badgeUrl": "https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white"
+      },
+      {
+        "id": "jira",
+        "name": "Jira",
+        "badgeUrl": "https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"
+      },
+      {
+        "id": "kubernetes",
+        "name": "Kubernetes",
+        "badgeUrl": "https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"
+      },
+      {
+        "id": "grafana",
+        "name": "Grafana",
+        "badgeUrl": "https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white"
+      },
+      {
+        "id": "docker",
+        "name": "Docker",
+        "badgeUrl": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"
+      },
+      {
+        "id": "postman",
+        "name": "Postman",
+        "badgeUrl": "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"
+      }
+    ]
+  },
+
+  "experience": {
+    "experienceTitle": "专业经验 👨🏻‍💻",
+    "experiences": [
+      {
+        "companyName": "GetBoarded Technologies LDA",
+        "location": "葡萄牙（远程）",
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQFMUvMMh3HaOw/company-logo_200_200/company-logo_200_200/0/1714748842206/getboarded_logo?e=2147483647&v=beta&t=O45Z7BWuZIZwTeWbENgduELpycqIPxgf2WnU8Jgy4aE",
+        "career": [
+          {
+            "role": "软件工程师",
+            "duration": "2.6 年",
+            "employmentType": "全职",
+            "fromDate": "2023年7月",
+            "toDate": "至今",
+            "description": [
+              "参与了 Decast.live 项目，这是一个专注于保护隐私的互联网基础设施的去中心化直播和媒体平台。",
+              "使用 React.js 和 Vue.js 开发并维护前端界面，支持 150-200 名并发用户进行安全的视频会议。",
+              "与区块链团队合作实现了基于 NFT 的访问控制系统（NFT 门控和空投）。",
+              "将暴力团队配对算法重构为优化的轮询调度系统，使响应速度提升了 10 倍。",
+              "通过可复用组件架构、优化的状态管理和结构化的 SDLC 实践，提升了应用程序的可扩展性和可靠性。",
+              "通过代码审查和敏捷工作流与后端、区块链及产品团队紧密协作，为全球 40 多个国家的用户提供支持。"
+            ]
+          }
+        ]
+      },
+      {
+        "companyName": "Arbunize Digital Media Pvt Ltd",
+        "location": "印度，德里（远程）",
+        "logo": "https://media.glassdoor.com/sqll/1739084/arbunize-squarelogo-1501570256734.png",
+        "career": [
+          {
+            "role": "全栈开发工程师",
+            "duration": "1 年",
+            "employmentType": "兼职",
+            "fromDate": "2022年8月",
+            "toDate": "2023年7月",
+            "description": [
+              "开发了自定义 React Hooks，并集成了 AI 驱动的自动化机器人，用于将文本和文档转换为视频场景，减少了 50% 的手动工作量。",
+              "参与开发了一款发布在 Webex App Hub 上的企业级应用，并严格遵守部署和质量标准。"
+            ]
+          },
+          {
+            "role": "应用开发工程师",
+            "duration": "6 个月",
+            "employmentType": "实习",
+            "fromDate": "2022年2月",
+            "toDate": "2022年7月",
+            "description": [
+              "使用 React.js、JavaScript 和 Node.js 构建并优化了可复用的 UI 组件和 REST API。"
+            ]
+          }
+        ]
+      },
+      {
+        "companyName": "MissionEd",
+        "location": "印度，加尔各答（远程）",
+        "logo": "https://media.licdn.com/dms/image/C4E0BAQFCG7lsaKE3OA/company-logo_200_200/0/1594900264723?e=2147483647&v=beta&t=Dye9t0L4Y6fs2cNB7T58Dox_87WqfWL3lIxk9SDjNiU",
+        "career": [
+          {
+            "role": "ReactJS Web 开发实习生",
+            "duration": "3 个月",
+            "employmentType": "实习",
+            "fromDate": "2021年8月",
+            "toDate": "2021年12月",
+            "description": [
+              "开发了一个可扩展的管理后台，支持 1000 多名学生同时进行在线测评。",
+              "使用 MERN 栈实现了 JWT 和 Google OAuth 认证、基于角色的访问控制（RBAC）以及 CRUD 操作。",
+              "构建了可复用的 React 组件，并利用现代 React 模式改进了状态管理。"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "project": {
+    "projectTitle": "项目展示 🚀",
+    "sourceCodeLabel": "源代碼",
+    "liveDemoLabel": "即時演示",
+    "projects": [
+      {
+        "name": "Decast.live",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1770631949/decast_ss_qhvisq.png",
+        "type": "Web 应用程序",
+        "techStack": "React Vue.js TypeScript Node.js Docker Web3",
+        "sourceCode": "https://github.com/NGI-TRUSTCHAIN/Decast/commits/main?author=skgupta77159",
+        "demoLink": "https://beta.decast.live/",
+        "shortDescription": "通过生成式 AI 全面自动化您的直播和内容发布工作流。"
+      },
+      {
+        "name": "Desto",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1770631922/desto_pvfdmz.webp",
+        "type": "Web 应用程序",
+        "techStack": "Web3.Storage ReactJS MongoDB NodeJs",
+        "sourceCode": "https://github.com/medstore/blockchain-storage",
+        "demoLink": "https://desto.onrender.com/",
+        "shortDescription": "一个安全的去中心化存储应用，用于在基于 IPFS 的分布式网络上上传并存储图像和文件，具备完整的身份验证功能。"
+      },
+      {
+        "name": "MyStore",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1770632050/mystore_tphj5l.webp",
+        "type": "Web 应用程序",
+        "techStack": "ReactJS Firebase",
+        "sourceCode": "https://github.com/skgupta77159/ecommerce-flask",
+        "demoLink": "https://mystore-app.onrender.com/",
+        "shortDescription": "具有全面功能的在线电子商务平台，包括卖家管理后台。实现了使用 Geolocation API 搜索产品并在地图上显示店铺位置的功能。"
+      },
+      {
+        "name": "Portfolio",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/portfolio_pfs9ju.jpg",
+        "type": "Web 应用程序",
+        "techStack": "ReactJS Firebase",
+        "sourceCode": "https://github.com/skgupta77159/",
+        "demoLink": "https://skgupta77159.github.io/",
+        "shortDescription": "使用 ReactJS 构建的精美个人作品集。"
+      },
+      {
+        "name": "MyCourses",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/MyCourses-banner_tspd4z.jpg",
+        "type": "Android 应用",
+        "techStack": "Java Firebase AndroidStudio",
+        "sourceCode": "https://github.com/skgupta77159/MyCourses-App",
+        "demoLink": "https://drive.google.com/file/d/1DQHAKzjwdxySw0hvn0UTYVFav9Db4n5B/view?usp=sharing",
+        "shortDescription": "专为编程初学者设计的免费视频教程应用。"
+      },
+      {
+        "name": "TernaLogin",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/TernaLogin-banner_u7qp2t.jpg",
+        "type": "Android 应用",
+        "techStack": "Java Firebase AndroidStudio",
+        "sourceCode": "https://github.com/skgupta77159/TernaLogin",
+        "demoLink": "https://drive.google.com/file/d/1DQHAKzjwdxySw0hvn0UTYVFav9Db4n5B/view?usp=sharing",
+        "shortDescription": "一款考勤系统应用，帮助教师记录、管理并分析学生考勤。"
+      }
+    ]
+  },
+
+  "blog": {
+    "blogsTitle": "博客文章 ✍️",
+    "blogs": [
+      {
+        "title": "从开发到生产：在 Webex 空间创建机器人的完整指南",
+        "description": "涵盖了在 Webex App Hub 上构建、配置和发布机器人的全生命周期详细指南。",
+        "link": "https://medium.com/videowiki-pt/the-complete-guide-to-creating-your-bot-in-webex-space-from-dev-to-prod-7af29d9372f1"
+      }
+    ]
+  },
+
+  "certificate": {
+    "certificateTitle": "证书奖项 🏆",
+    "certificates": [
+      {
+        "title": "Linux",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/Sushil_KumarGupta-NDG_Linux_Essent-certificate_zzt5z9_lij0ru.webp"
+      },
+      {
+        "title": "AWS",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/Coursera_NVYJUA6PNKJ9_msco9s_jmxpyb.webp"
+      },
+      {
+        "title": "Google",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/javascript_hmeymr_zxuif3.webp"
+      },
+      {
+        "title": "tcs",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/tcs_w1wnno_pdmj8b.webp"
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "联系我！",
+    "subtitle": "想讨论项目或打个招呼？我乐于接受所有合作机会和交流。",
+    "thankYouMessage": "感谢您的关注！祝您度过愉快的一天，欢迎在 LinkedIn 上与我建立联系。"
+  },
+
+  "footer": {
+    "credit": "由 Sushil Kumar Gupta 用 ❣️ 设计并制作"
+  }
+}

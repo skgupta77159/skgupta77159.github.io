@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, Suspense } from "react";
 import { GlobalStyles } from "./styles/GlobalStyles";
 import { lightTheme, darkTheme } from "./styles/theme";
 import { ThemeProvider } from "styled-components";
@@ -64,19 +64,21 @@ function App() {
 
   return (
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
-      <div className="App">
-        <GlobalStyles />
-        <Topbar toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
-        <Intro />
-        <About />
-        <Skills />
-        <Experiences />
-        <Projects />
-        <Blogs />
-        <Certificates />
-        <Contact />
-        <Footer />
-      </div>
+      <Suspense fallback="loading...">
+        <div className="App">
+          <GlobalStyles />
+          <Topbar toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
+          <Intro />
+          <About />
+          <Skills />
+          <Experiences />
+          <Projects />
+          <Blogs />
+          <Certificates />
+          <Contact />
+          <Footer />
+        </div>
+      </Suspense>
     </ThemeProvider>
   );
 }

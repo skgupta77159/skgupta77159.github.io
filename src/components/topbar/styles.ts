@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 interface MenuProps {
-    isMenuOpen: boolean
+    isMenuOpen: boolean;
 }
 
 const Topbar = styled.div`

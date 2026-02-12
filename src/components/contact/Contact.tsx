@@ -1,16 +1,15 @@
+import { useTranslation } from "react-i18next";
 import Styled from "./styles";
 
 const Contact: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <Styled.ContactSection id="contacts">
-      {/* <Styled.ContactHeading>Contact</Styled.ContactHeading> */}
       <Styled.ContactContent>
-        <h2>Reach out to me!</h2>
-        <h3>DISCUSS A PROJECT OR JUST WANT TO SAY HI? I AM OPEN FOR ALL</h3>
-        <p>
-          "Thank you for your time! Have a Great Day, Connect with me on
-          LinkedIn"
-        </p>
+        <h2>{t("contact.title")}</h2>
+        <h3>{t("contact.subtitle")}</h3>
+        <p>{t("contact.thankYouMessage")}</p>
       </Styled.ContactContent>
     </Styled.ContactSection>
   );

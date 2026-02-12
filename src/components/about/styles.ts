@@ -1,7 +1,7 @@
 import styled, { css, keyframes } from "styled-components";
 
 interface TerminalContentProps {
-    len: number
+    len: number;
 }
 
 const blink = keyframes`

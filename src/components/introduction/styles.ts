@@ -74,6 +74,7 @@ const IntroLeft = styled.div`
   flex-direction: column;
   flex: 1;
   .nameTitle {
+    height: auto;
     border-bottom: 2px solid transparent;
     border-image: linear-gradient(
       0.25turn,

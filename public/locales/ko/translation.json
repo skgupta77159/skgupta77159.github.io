@@ -1,0 +1,415 @@
+{
+  "menu": {
+    "home": "홈",
+    "about": "소개",
+    "experiences": "경력",
+    "projects": "프로젝트",
+    "blogs": "블로그",
+    "achievements": "성과",
+    "contacts": "연락처"
+  },
+
+  "intro": {
+    "greet": "안녕하세요 모두들 <1>👋</1>",
+    "namePrefix": "저는",
+    "name": "Sushil Gupta",
+    "shortTitle": "소프트웨어 엔지니어",
+    "description": "2년 이상의 실무 경험을 보유한 결과 중심의 풀스택 소프트웨어 엔지니어입니다. 상용 수준의 웹 애플리케이션 설계, 개발 및 확장에 전문성을 갖추고 있습니다. React, TypeScript, Node.js를 능숙하게 다루며, 분산된 크로스 기능 팀 환경에서 엔드 투 엔드 기능 제공, 성능 최적화 및 시스템 신뢰성 확보에 강력한 주도권을 발휘해 왔습니다.",
+    "scroll": "아래로 스크롤"
+  },
+
+  "socialIcons": [
+    {
+      "id": "github",
+      "name": "GitHub",
+      "color": "#333333",
+      "image": "GithubIcon",
+      "link": "https://github.com/skgupta77159"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "color": "#0072B1",
+      "image": "LinkedinIcon",
+      "link": "https://www.linkedin.com/in/sushil-kumar-gupta/"
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "color": "#000000",
+      "image": "MediumIcon",
+      "link": "https://medium.com/@guptasushil77159"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "color": "#4267B2",
+      "image": "FacebookIcon",
+      "link": "https://www.facebook.com/profile.php?id=100021203409404"
+    }
+  ],
+
+  "whatIDo": {
+    "whatIDoLabel": "기술 역량",
+    "education": "컴퓨터 공학 학사 (뭄바이 대학교)",
+    "location": "인도, 마하라슈트라, 뭄바이",
+    "aboutTitle": "확장 가능한 웹 플랫폼 전문 풀스택 소프트웨어 엔지니어",
+    "whatIDoDescription": "~ React, TypeScript 및 최신 JavaScript를 사용하여 확장 가능하고 유지보수가 용이한 고성능 웹 애플리케이션 설계 및 개발 <1></1>~ 업계 모범 사례를 준수하며 Node.js와 Express를 활용한 안전한 RESTful 백엔드 서비스 아키텍처 설계 및 통합 <1></1>~ 재사용 가능한 컴포넌트 아키텍처를 통한 프론트엔드 성능, 접근성 및 크로스 브라우저 호환성 최적화 <1></1>~ 애자일 기반의 크로스 기능 팀 협업, CI/CD 파이프라인 기여, 컨테이너화된 배포 및 프로덕션 안정성 확보"
+  },
+
+  "skill": {
+    "skillsTitle": "기술 스택 💻",
+    "skills": [
+      {
+        "id": "javascript",
+        "name": "JavaScript",
+        "badgeUrl": "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+      },
+      {
+        "id": "java",
+        "name": "Java",
+        "badgeUrl": "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"
+      },
+      {
+        "id": "html5",
+        "name": "HTML5",
+        "badgeUrl": "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+      },
+      {
+        "id": "python",
+        "name": "Python",
+        "badgeUrl": "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+      },
+      {
+        "id": "typescript",
+        "name": "TypeScript",
+        "badgeUrl": "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+      },
+      {
+        "id": "aws",
+        "name": "AWS",
+        "badgeUrl": "https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"
+      },
+      {
+        "id": "azure",
+        "name": "Azure",
+        "badgeUrl": "https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white"
+      },
+      {
+        "id": "google-cloud",
+        "name": "Google Cloud",
+        "badgeUrl": "https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"
+      },
+      {
+        "id": "firebase",
+        "name": "Firebase",
+        "badgeUrl": "https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"
+      },
+      {
+        "id": "heroku",
+        "name": "Heroku",
+        "badgeUrl": "https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"
+      },
+      {
+        "id": "cloudflare",
+        "name": "Cloudflare",
+        "badgeUrl": "https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"
+      },
+      {
+        "id": "angular",
+        "name": "Angular",
+        "badgeUrl": "https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"
+      },
+      {
+        "id": "nodejs",
+        "name": "Node.js",
+        "badgeUrl": "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+      },
+      {
+        "id": "react",
+        "name": "React",
+        "badgeUrl": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+      },
+      {
+        "id": "redux",
+        "name": "Redux",
+        "badgeUrl": "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"
+      },
+      {
+        "id": "vue",
+        "name": "Vue.js",
+        "badgeUrl": "https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D"
+      },
+      {
+        "id": "tailwindcss",
+        "name": "Tailwind CSS",
+        "badgeUrl": "https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"
+      },
+      {
+        "id": "jenkins",
+        "name": "Jenkins",
+        "badgeUrl": "https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white"
+      },
+      {
+        "id": "nginx",
+        "name": "Nginx",
+        "badgeUrl": "https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white"
+      },
+      {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "badgeUrl": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
+      },
+      {
+        "id": "mysql",
+        "name": "MySQL",
+        "badgeUrl": "https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"
+      },
+      {
+        "id": "sqlite",
+        "name": "SQLite",
+        "badgeUrl": "https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white"
+      },
+      {
+        "id": "postgresql",
+        "name": "PostgreSQL",
+        "badgeUrl": "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"
+      },
+      {
+        "id": "canva",
+        "name": "Canva",
+        "badgeUrl": "https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"
+      },
+      {
+        "id": "figma",
+        "name": "Figma",
+        "badgeUrl": "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"
+      },
+      {
+        "id": "git",
+        "name": "Git",
+        "badgeUrl": "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
+      },
+      {
+        "id": "github",
+        "name": "GitHub",
+        "badgeUrl": "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
+      },
+      {
+        "id": "gitlab",
+        "name": "GitLab",
+        "badgeUrl": "https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"
+      },
+      {
+        "id": "jest",
+        "name": "Jest",
+        "badgeUrl": "https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white"
+      },
+      {
+        "id": "jira",
+        "name": "Jira",
+        "badgeUrl": "https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"
+      },
+      {
+        "id": "kubernetes",
+        "name": "Kubernetes",
+        "badgeUrl": "https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"
+      },
+      {
+        "id": "grafana",
+        "name": "Grafana",
+        "badgeUrl": "https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white"
+      },
+      {
+        "id": "docker",
+        "name": "Docker",
+        "badgeUrl": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"
+      },
+      {
+        "id": "postman",
+        "name": "Postman",
+        "badgeUrl": "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"
+      }
+    ]
+  },
+
+  "experience": {
+    "experienceTitle": "경력 사항 👨🏻‍💻",
+    "experiences": [
+      {
+        "companyName": "GetBoarded Technologies LDA",
+        "location": "포르투갈 (원격)",
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQFMUvMMh3HaOw/company-logo_200_200/company-logo_200_200/0/1714748842206/getboarded_logo?e=2147483647&v=beta&t=O45Z7BWuZIZwTeWbENgduELpycqIPxgf2WnU8Jgy4aE",
+        "career": [
+          {
+            "role": "소프트웨어 엔지니어",
+            "duration": "2.6년",
+            "employmentType": "정규직",
+            "fromDate": "2023년 7월",
+            "toDate": "현재",
+            "description": [
+              "개인정보 보호 중심의 인터넷 인프라 기반 분산형 라이브 캐스팅 및 미디어 플랫폼인 Decast.live 개발에 기여했습니다.",
+              "React.js 및 Vue.js를 사용하여 프론트엔드 인터페이스를 개발 및 유지보수하여 150~200명의 동시 접속 사용자를 위한 보안 화상 회의 기능을 구현했습니다.",
+              "블록체인 팀과 협력하여 NFT 기반 액세스 제어 시스템(NFT 게이팅 및 에어드랍)을 구축했습니다.",
+              "브루트 포스 기반의 팀 매칭 알고리즘을 최적화된 라운드 로빈 스케줄링 시스템으로 리팩토링하여 응답 속도를 10배 향상시켰습니다.",
+              "재사용 가능한 컴포넌트 아키텍처, 최적화된 상태 관리 및 구조화된 SDLC 관행을 통해 애플리케이션의 확장성과 신뢰성을 개선했습니다.",
+              "코드 리뷰 및 애자일 워크플로우를 통해 백엔드, 블록체인 및 제품 팀과 긴밀히 협업하며 40개국 이상의 사용자들을 지원했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "companyName": "Arbunize Digital Media Pvt Ltd",
+        "location": "인도, 델리 (원격)",
+        "logo": "https://media.glassdoor.com/sqll/1739084/arbunize-squarelogo-1501570256734.png",
+        "career": [
+          {
+            "role": "풀스택 개발자",
+            "duration": "1년",
+            "employmentType": "파트타임",
+            "fromDate": "2022년 8월",
+            "toDate": "2023년 7월",
+            "description": [
+              "커스텀 React Hook을 개발하고 AI 기반 자동화 봇을 통합하여 텍스트와 문서를 비디오 장면으로 변환하는 기능을 구현함으로써 수동 작업을 50% 줄였습니다.",
+              "배포 및 품질 표준을 준수하며 Webex App Hub에 게시된 기업용 애플리케이션 개발에 기여했습니다."
+            ]
+          },
+          {
+            "role": "애플리케이션 개발자",
+            "duration": "6개월",
+            "employmentType": "인턴",
+            "fromDate": "2022년 2월",
+            "toDate": "2022년 7월",
+            "description": [
+              "React.js, JavaScript 및 Node.js를 사용하여 재사용 가능한 UI 컴포넌트와 REST API를 구축하고 최적화했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "companyName": "MissionEd",
+        "location": "인도, 콜카타 (원격)",
+        "logo": "https://media.licdn.com/dms/image/C4E0BAQFCG7lsaKE3OA/company-logo_200_200/0/1594900264723?e=2147483647&v=beta&t=Dye9t0L4Y6fs2cNB7T58Dox_87WqfWL3lIxk9SDjNiU",
+        "career": [
+          {
+            "role": "ReactJS 웹 개발 인턴",
+            "duration": "3개월",
+            "employmentType": "인턴",
+            "fromDate": "2021년 8월",
+            "toDate": "2021년 12월",
+            "description": [
+              "온라인 평가를 위해 1,000명 이상의 동시 접속 학생을 지원하는 확장 가능한 관리자 패널을 개발했습니다.",
+              "MERN 스택을 사용하여 JWT 및 Google OAuth 인증, 역할 기반 액세스 제어(RBAC) 및 CRUD 작업을 구현했습니다.",
+              "최신 React 패턴을 사용하여 재사용 가능한 React 컴포넌트를 구축하고 상태 관리를 개선했습니다."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "project": {
+    "projectTitle": "프로젝트 🚀",
+    "sourceCodeLabel": "소스 코드",
+    "liveDemoLabel": "라이브 데모",
+    "projects": [
+      {
+        "name": "Decast.live",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1770631949/decast_ss_qhvisq.png",
+        "type": "웹 애플리케이션",
+        "techStack": "React Vue.js TypeScript Node.js Docker Web3",
+        "sourceCode": "https://github.com/NGI-TRUSTCHAIN/Decast/commits/main?author=skgupta77159",
+        "demoLink": "https://beta.decast.live/",
+        "shortDescription": "생성형 AI를 활용하여 라이브 캐스팅 및 콘텐츠 게시 워크플로우를 완벽하게 자동화합니다."
+      },
+      {
+        "name": "Desto",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1770631922/desto_pvfdmz.webp",
+        "type": "웹 애플리케이션",
+        "techStack": "Web3.Storage ReactJS MongoDB NodeJs",
+        "sourceCode": "https://github.com/medstore/blockchain-storage",
+        "demoLink": "https://desto.onrender.com/",
+        "shortDescription": "완전한 인증 기능을 갖춘 IPFS 분산 네트워크상에서 이미지와 파일을 업로드하고 저장할 수 있는 안전한 분산형 스토리지 애플리케이션입니다."
+      },
+      {
+        "name": "MyStore",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1770632050/mystore_tphj5l.webp",
+        "type": "웹 애플리케이션",
+        "techStack": "ReactJS Firebase",
+        "sourceCode": "https://github.com/skgupta77159/ecommerce-flask",
+        "demoLink": "https://mystore-app.onrender.com/",
+        "shortDescription": "판매자 관리 패널을 포함한 종합적인 기능을 갖춘 온라인 이커머스 플랫폼입니다. 지오로케이션 API를 사용하여 제품을 검색하고 지도에 매장 위치를 표시하는 기능을 구현했습니다."
+      },
+      {
+        "name": "Portfolio",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/portfolio_pfs9ju.jpg",
+        "type": "웹 애플리케이션",
+        "techStack": "ReactJS Firebase",
+        "sourceCode": "https://github.com/skgupta77159/",
+        "demoLink": "https://skgupta77159.github.io/",
+        "shortDescription": "ReactJS를 사용하여 구축한 아름다운 개인 포트폴리오 사이트입니다."
+      },
+      {
+        "name": "MyCourses",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/MyCourses-banner_tspd4z.jpg",
+        "type": "안드로이드 앱",
+        "techStack": "Java Firebase AndroidStudio",
+        "sourceCode": "https://github.com/skgupta77159/MyCourses-App",
+        "demoLink": "https://drive.google.com/file/d/1DQHAKzjwdxySw0hvn0UTYVFav9Db4n5B/view?usp=sharing",
+        "shortDescription": "완전 초보 학생들을 위한 무료 프로그래밍 비디오 강의 앱입니다."
+      },
+      {
+        "name": "TernaLogin",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/TernaLogin-banner_u7qp2t.jpg",
+        "type": "안드로이드 앱",
+        "techStack": "Java Firebase AndroidStudio",
+        "sourceCode": "https://github.com/skgupta77159/TernaLogin",
+        "demoLink": "https://drive.google.com/file/d/1DQHAKzjwdxySw0hvn0UTYVFav9Db4n5B/view?usp=sharing",
+        "shortDescription": "TernaLogin은 교수자가 학생들의 출석을 기록, 관리 및 분석할 수 있도록 돕는 출석 시스템 앱입니다."
+      }
+    ]
+  },
+
+  "blog": {
+    "blogsTitle": "블로그 및 기사 ✍️",
+    "blogs": [
+      {
+        "title": "개발부터 프로덕션까지: Webex 스페이스에서 봇을 만드는 완전 가이드",
+        "description": "Webex App Hub에서 봇을 구축하고, 프로비저닝하며 게시하는 전체 수명 주기를 다루는 포괄적인 가이드입니다.",
+        "link": "https://medium.com/videowiki-pt/the-complete-guide-to-creating-your-bot-in-webex-space-from-dev-to-prod-7af29d9372f1"
+      }
+    ]
+  },
+
+  "certificate": {
+    "certificateTitle": "자격증 🏆",
+    "certificates": [
+      {
+        "title": "Linux",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/Sushil_KumarGupta-NDG_Linux_Essent-certificate_zzt5z9_lij0ru.webp"
+      },
+      {
+        "title": "AWS",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/Coursera_NVYJUA6PNKJ9_msco9s_jmxpyb.webp"
+      },
+      {
+        "title": "Google",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/javascript_hmeymr_zxuif3.webp"
+      },
+      {
+        "title": "TCS",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/tcs_w1wnno_pdmj8b.webp"
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "연락 주세요!",
+    "subtitle": "프로젝트 협업이나 가벼운 인사도 환영합니다. 모든 기회와 대화에 열려 있습니다.",
+    "thankYouMessage": "시간을 내주셔서 감사합니다! 좋은 하루 보내시고, LinkedIn을 통해 저와 연결해 주세요."
+  },
+
+  "footer": {
+    "credit": "Sushil Kumar Gupta가 ❣️으로 디자인하고 제작했습니다"
+  }
+}

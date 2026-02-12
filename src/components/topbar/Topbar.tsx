@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import Styled from "./styles";
+import LanguageSelector from "../selector/LanguageSelector";
+import { useTranslation } from "react-i18next";
 
 interface TopbarProps {
   toggleTheme: () => void;
@@ -11,6 +13,8 @@ const Topbar: React.FC<TopbarProps> = ({ toggleTheme, isDarkTheme }) => {
     typeof window !== "undefined" ? window.innerWidth <= 768 : false,
   );
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+
+  const { t } = useTranslation();
 
   const checkIsMobile = () => {
     setIsMobile(window.innerWidth <= 768);
@@ -44,25 +48,25 @@ const Topbar: React.FC<TopbarProps> = ({ toggleTheme, isDarkTheme }) => {
 
       <Styled.TopbarMenu isMenuOpen={isMenuOpen}>
         <li>
-          <a href="#">Home</a>
+          <a href="#">{t("menu.home")}</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">{t("menu.about")}</a>
         </li>
         <li>
-          <a href="#experiences">Experiences</a>
+          <a href="#experiences">{t("menu.experiences")}</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects">{t("menu.projects")}</a>
         </li>
         <li>
-          <a href="#blogs">Blogs</a>
+          <a href="#blogs">{t("menu.blogs")}</a>
         </li>
         <li>
-          <a href="#achievements">Achievements</a>
+          <a href="#achievements">{t("menu.achievements")}</a>
         </li>
         <li>
-          <a href="#contacts">Contacts</a>
+          <a href="#contacts">{t("menu.contacts")}</a>
         </li>
 
         <li onClick={toggleTheme}>
@@ -76,6 +80,7 @@ const Topbar: React.FC<TopbarProps> = ({ toggleTheme, isDarkTheme }) => {
             </span>
           )}
         </li>
+        <LanguageSelector />
       </Styled.TopbarMenu>
     </Styled.Topbar>
   );

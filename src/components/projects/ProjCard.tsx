@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import GithubIcon from "../../assets/icons/GithubIcon";
 import LiveIcon from "../../assets/icons/LiveIcon";
 import Styled from "./styles";
@@ -25,6 +26,9 @@ const ProjCard: React.FC<ProjCardProps> = ({ project }) => {
     demoLink,
     shortDescription,
   } = project;
+
+  const { t } = useTranslation();
+
   return (
     <Styled.ProjCard>
       <img src={image} alt="project image" />
@@ -41,13 +45,13 @@ const ProjCard: React.FC<ProjCardProps> = ({ project }) => {
               <span>
                 <a href={sourceCode} target="_blank">
                   <GithubIcon />
-                  Source Code
+                  {t("project.sourceCodeLabel")}
                 </a>
               </span>
               <span>
                 <a href={demoLink} target="_blank">
                   <LiveIcon />
-                  Live Demo
+                  {t("project.liveDemoLabel")}
                 </a>
               </span>
             </Styled.ProjColRight>

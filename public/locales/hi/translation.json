@@ -1,0 +1,415 @@
+{
+  "menu": {
+    "home": "होम",
+    "about": "परिचय",
+    "experiences": "अनुभव",
+    "projects": "प्रोजेक्ट्स",
+    "blogs": "ब्लॉग्स",
+    "achievements": "उपलब्धियां",
+    "contacts": "संपर्क"
+  },
+
+  "intro": {
+    "greet": "नमस्ते सभी को <1>🙏</1>",
+    "namePrefix": "मैं हूँ",
+    "name": "सुशील गुप्ता",
+    "shortTitle": "सॉफ्टवेयर इंजीनियर",
+    "description": "उत्पादन-ग्रेड वेब अनुप्रयोगों को डिजाइन करने, विकसित करने और स्केल करने के 2+ वर्षों के अनुभव के साथ परिणाम-संचालित फुल स्टैक सॉफ्टवेयर इंजीनियर। React, TypeScript और Node.js में विशेषज्ञता, एंड-टू-एंड फीचर डिलीवरी, परफॉरमेंस ऑप्टिमाइज़ेशन और डिस्ट्रीब्यूटेड सिस्टम्स की विश्वसनीयता का गहरा अनुभव।",
+    "scroll": "नीचे स्क्रॉल करें"
+  },
+
+  "socialIcons": [
+    {
+      "id": "github",
+      "name": "GitHub",
+      "color": "#333333",
+      "image": "GithubIcon",
+      "link": "https://github.com/skgupta77159"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "color": "#0072B1",
+      "image": "LinkedinIcon",
+      "link": "https://www.linkedin.com/in/sushil-kumar-gupta/"
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "color": "#000000",
+      "image": "MediumIcon",
+      "link": "https://medium.com/@guptasushil77159"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "color": "#4267B2",
+      "image": "FacebookIcon",
+      "link": "https://www.facebook.com/profile.php?id=100021203409404"
+    }
+  ],
+
+  "whatIDo": {
+    "whatIDoLabel": "मैं क्या करता हूँ?",
+    "education": "बी.ई. कंप्यूटर इंजीनियरिंग (मुंबई विश्वविद्यालय)",
+    "location": "मुंबई, महाराष्ट्र, भारत",
+    "aboutTitle": "स्केलेबल वेब प्लेटफॉर्म में विशेषज्ञता रखने वाले फुल स्टैक सॉफ्टवेयर इंजीनियर",
+    "whatIDoDescription": "~ React, TypeScript और आधुनिक JavaScript का उपयोग करके स्केलेबल, मेंटेन करने योग्य और उच्च प्रदर्शन वाले वेब एप्लिकेशन डिजाइन और विकसित करना <1></1>~ उद्योग के सर्वोत्तम प्रथाओं का पालन करते हुए Node.js और Express के साथ सुरक्षित, RESTful बैकएंड सेवाओं को आर्किटेक्ट और एकीकृत करना <1></1>~ रीयूज़ेबल कंपोनेंट आर्किटेक्चर के माध्यम से फ्रंटएंड परफॉरमेंस, एक्सेसिबिलिटी और क्रॉस-ब्राउज़र कम्पैटिबिलिटी को अनुकूलित करना <1></1>~ चपल (Agile), क्रॉस-फंक्शनल टीमों के भीतर सहयोग करना, CI/CD पाइपलाइनों, कंटेनराइज्ड डिप्लॉयमेंट और प्रोडक्शन रेडिनेस में योगदान देना"
+  },
+
+  "skill": {
+    "skillsTitle": "तकनीकी कौशल 💻",
+    "skills": [
+      {
+        "id": "javascript",
+        "name": "JavaScript",
+        "badgeUrl": "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"
+      },
+      {
+        "id": "java",
+        "name": "Java",
+        "badgeUrl": "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"
+      },
+      {
+        "id": "html5",
+        "name": "HTML5",
+        "badgeUrl": "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"
+      },
+      {
+        "id": "python",
+        "name": "Python",
+        "badgeUrl": "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"
+      },
+      {
+        "id": "typescript",
+        "name": "TypeScript",
+        "badgeUrl": "https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"
+      },
+      {
+        "id": "aws",
+        "name": "AWS",
+        "badgeUrl": "https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white"
+      },
+      {
+        "id": "azure",
+        "name": "Azure",
+        "badgeUrl": "https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white"
+      },
+      {
+        "id": "google-cloud",
+        "name": "Google Cloud",
+        "badgeUrl": "https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"
+      },
+      {
+        "id": "firebase",
+        "name": "Firebase",
+        "badgeUrl": "https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase"
+      },
+      {
+        "id": "heroku",
+        "name": "Heroku",
+        "badgeUrl": "https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"
+      },
+      {
+        "id": "cloudflare",
+        "name": "Cloudflare",
+        "badgeUrl": "https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"
+      },
+      {
+        "id": "angular",
+        "name": "Angular",
+        "badgeUrl": "https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white"
+      },
+      {
+        "id": "nodejs",
+        "name": "Node.js",
+        "badgeUrl": "https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"
+      },
+      {
+        "id": "react",
+        "name": "React",
+        "badgeUrl": "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"
+      },
+      {
+        "id": "redux",
+        "name": "Redux",
+        "badgeUrl": "https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"
+      },
+      {
+        "id": "vue",
+        "name": "Vue.js",
+        "badgeUrl": "https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D"
+      },
+      {
+        "id": "tailwindcss",
+        "name": "Tailwind CSS",
+        "badgeUrl": "https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"
+      },
+      {
+        "id": "jenkins",
+        "name": "Jenkins",
+        "badgeUrl": "https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white"
+      },
+      {
+        "id": "nginx",
+        "name": "Nginx",
+        "badgeUrl": "https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white"
+      },
+      {
+        "id": "mongodb",
+        "name": "MongoDB",
+        "badgeUrl": "https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"
+      },
+      {
+        "id": "mysql",
+        "name": "MySQL",
+        "badgeUrl": "https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"
+      },
+      {
+        "id": "sqlite",
+        "name": "SQLite",
+        "badgeUrl": "https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white"
+      },
+      {
+        "id": "postgresql",
+        "name": "PostgreSQL",
+        "badgeUrl": "https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white"
+      },
+      {
+        "id": "canva",
+        "name": "Canva",
+        "badgeUrl": "https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white"
+      },
+      {
+        "id": "figma",
+        "name": "Figma",
+        "badgeUrl": "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"
+      },
+      {
+        "id": "git",
+        "name": "Git",
+        "badgeUrl": "https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"
+      },
+      {
+        "id": "github",
+        "name": "GitHub",
+        "badgeUrl": "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
+      },
+      {
+        "id": "gitlab",
+        "name": "GitLab",
+        "badgeUrl": "https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white"
+      },
+      {
+        "id": "jest",
+        "name": "Jest",
+        "badgeUrl": "https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white"
+      },
+      {
+        "id": "jira",
+        "name": "Jira",
+        "badgeUrl": "https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white"
+      },
+      {
+        "id": "kubernetes",
+        "name": "Kubernetes",
+        "badgeUrl": "https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white"
+      },
+      {
+        "id": "grafana",
+        "name": "Grafana",
+        "badgeUrl": "https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white"
+      },
+      {
+        "id": "docker",
+        "name": "Docker",
+        "badgeUrl": "https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"
+      },
+      {
+        "id": "postman",
+        "name": "Postman",
+        "badgeUrl": "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"
+      }
+    ]
+  },
+
+  "experience": {
+    "experienceTitle": "पेशेवर अनुभव 👨🏻‍💻",
+    "experiences": [
+      {
+        "companyName": "GetBoarded Technologies LDA",
+        "location": "पुर्तगाल (रिमोट)",
+        "logo": "https://media.licdn.com/dms/image/v2/D560BAQFMUvMMh3HaOw/company-logo_200_200/company-logo_200_200/0/1714748842206/getboarded_logo?e=2147483647&v=beta&t=O45Z7BWuZIZwTeWbENgduELpycqIPxgf2WnU8Jgy4aE",
+        "career": [
+          {
+            "role": "सॉफ्टवेयर इंजीनियर",
+            "duration": "2.6 वर्ष",
+            "employmentType": "पूर्णकालिक (Full-Time)",
+            "fromDate": "जुलाई 2023",
+            "toDate": "वर्तमान",
+            "description": [
+              "Decast.live में योगदान दिया, जो गोपनीयता-संरक्षण इंटरनेट बुनियादी ढांचे पर केंद्रित एक विकेंद्रीकृत लाइव-कास्टिंग और मीडिया प्लेटफॉर्म है।",
+              "React.js और Vue.js का उपयोग करके फ्रंटएंड इंटरफेस विकसित और प्रबंधित किया, जिससे 150-200 समवर्ती उपयोगकर्ताओं के लिए सुरक्षित वीडियो कॉन्फ्रेंसिंग संभव हुई।",
+              "ब्लॉकचेन टीमों के सहयोग से NFT-आधारित एक्सेस कंट्रोल सिस्टम (NFT गेटिंग और एयरड्रॉप्स) लागू किया।",
+              "एक ब्रूट-फोर्स टीम-पेयरिंग एल्गोरिदम को एक ऑप्टिमाइज़्ड राउंड-रॉबिन शेड्यूलिंग सिस्टम में रिफैक्टर किया, जिससे 10 गुना तेज़ रिस्पॉन्स टाइम प्राप्त हुआ।",
+              "रीयूज़ेबल कंपोनेंट आर्किटेक्चर, ऑप्टिमाइज़्ड स्टेट मैनेजमेंट और स्ट्रक्चर्ड SDLC प्रथाओं के माध्यम से एप्लिकेशन स्केलेबिलिटी और विश्वसनीयता में सुधार किया।",
+              "कोड समीक्षाओं और एजाइल वर्कफ़्लो के माध्यम से बैकएंड, ब्लॉकचेन और उत्पाद टीमों के साथ मिलकर काम किया, 40+ देशों में उपयोगकर्ताओं को सहायता प्रदान की।"
+            ]
+          }
+        ]
+      },
+      {
+        "companyName": "Arbunize Digital Media Pvt Ltd",
+        "location": "दिल्ली, भारत (रिमोट)",
+        "logo": "https://media.glassdoor.com/sqll/1739084/arbunize-squarelogo-1501570256734.png",
+        "career": [
+          {
+            "role": "फुल स्टैक डेवलपर",
+            "duration": "1 वर्ष",
+            "employmentType": "अंशकालिक (Part-Time)",
+            "fromDate": "अगस्त 2022",
+            "toDate": "जुलाई 2023",
+            "description": [
+              "कस्टम React हुक्स विकसित किए और टेक्स्ट और दस्तावेजों को वीडियो दृश्यों में बदलने के लिए एक AI-संचालित ऑटोमेशन बॉट को एकीकृत किया, जिससे मैन्युअल प्रयास 50% कम हो गया।",
+              "वेबेक्स ऐप हब (Webex App Hub) पर प्रकाशित एक एंटरप्राइज-रेडी एप्लिकेशन में योगदान दिया, जो डिप्लॉयमेंट और गुणवत्ता मानकों का पालन करता है।"
+            ]
+          },
+          {
+            "role": "एप्लिकेशन डेवलपर",
+            "duration": "6 महीने",
+            "employmentType": "इंटर्नशिप",
+            "fromDate": "फरवरी 2022",
+            "toDate": "जुलाई 2022",
+            "description": [
+              "React.js, JavaScript और Node.js का उपयोग करके रीयूज़ेबल UI कंपोनेंट्स और REST APIs का निर्माण और अनुकूलन किया।"
+            ]
+          }
+        ]
+      },
+      {
+        "companyName": "MissionEd",
+        "location": "कोलकाता, भारत (रिमोट)",
+        "logo": "https://media.licdn.com/dms/image/C4E0BAQFCG7lsaKE3OA/company-logo_200_200/0/1594900264723?e=2147483647&v=beta&t=Dye9t0L4Y6fs2cNB7T58Dox_87WqfWL3lIxk9SDjNiU",
+        "career": [
+          {
+            "role": "ReactJS वेब डेवलपर इंटर्न",
+            "duration": "3 महीने",
+            "employmentType": "इंटर्नशिप",
+            "fromDate": "अगस्त 2021",
+            "toDate": "दिसंबर 2021",
+            "description": [
+              "ऑनलाइन मूल्यांकन के लिए 1,000+ समवर्ती छात्रों का समर्थन करने वाला एक स्केलेबल एडमिन पैनल विकसित किया।",
+              "MERN स्टैक का उपयोग करके JWT और Google OAuth प्रमाणीकरण, रोल-आधारित एक्सेस कंट्रोल और CRUD संचालन लागू किया।",
+              "रीयूज़ेबल React कंपोनेंट्स बनाए और आधुनिक React पैटर्न का उपयोग करके स्टेट मैनेजमेंट में सुधार किया।"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "project": {
+    "projectTitle": "प्रोजेक्ट्स 🚀",
+    "sourceCodeLabel": "स्रोत कोड",
+    "liveDemoLabel": "लाइव डेमो",
+    "projects": [
+      {
+        "name": "Decast.live",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1770631949/decast_ss_qhvisq.png",
+        "type": "वेब एप्लिकेशन",
+        "techStack": "React Vue.js TypeScript Node.js Docker Web3",
+        "sourceCode": "https://github.com/NGI-TRUSTCHAIN/Decast/commits/main?author=skgupta77159",
+        "demoLink": "https://beta.decast.live/",
+        "shortDescription": "जनरेटिव AI के साथ अपने लाइव कास्टिंग और कंटेंट पब्लिशिंग वर्कफ़्लो को पूरी तरह से ऑटोमेट करें।"
+      },
+      {
+        "name": "Desto",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1770631922/desto_pvfdmz.webp",
+        "type": "वेब एप्लिकेशन",
+        "techStack": "Web3.Storage ReactJS MongoDB NodeJs",
+        "sourceCode": "https://github.com/medstore/blockchain-storage",
+        "demoLink": "https://desto.onrender.com/",
+        "shortDescription": "पूर्ण प्रमाणीकरण के साथ IPFS पर एक वितरित नेटवर्क पर चित्र और फ़ाइलें अपलोड करने और संग्रहीत करने के लिए एक सुरक्षित विकेंद्रीकृत भंडारण अनुप्रयोग।"
+      },
+      {
+        "name": "MyStore",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1770632050/mystore_tphj5l.webp",
+        "type": "वेब एप्लिकेशन",
+        "techStack": "ReactJS Firebase",
+        "sourceCode": "https://github.com/skgupta77159/ecommerce-flask",
+        "demoLink": "https://mystore-app.onrender.com/",
+        "shortDescription": "विक्रेता एडमिन पैनल सहित सुविधाओं के व्यापक सेट के साथ ऑनलाइन ई-कॉमर्स प्लेटफॉर्म। जियोलोकेशन API का उपयोग करके उत्पादों को खोजने और मानचित्र पर स्टोर स्थानों को प्रदर्शित करने की कार्यक्षमता लागू की।"
+      },
+      {
+        "name": "Portfolio",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/portfolio_pfs9ju.jpg",
+        "type": "वेब एप्लिकेशन",
+        "techStack": "ReactJS Firebase",
+        "sourceCode": "https://github.com/skgupta77159/",
+        "demoLink": "https://skgupta77159.github.io/",
+        "shortDescription": "ReactJS का उपयोग करके बनाया गया मेरा सुंदर पोर्टफोलियो।"
+      },
+      {
+        "name": "MyCourses",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/MyCourses-banner_tspd4z.jpg",
+        "type": "Android ऐप",
+        "techStack": "Java Firebase AndroidStudio",
+        "sourceCode": "https://github.com/skgupta77159/MyCourses-App",
+        "demoLink": "https://drive.google.com/file/d/1DQHAKzjwdxySw0hvn0UTYVFav9Db4n5B/view?usp=sharing",
+        "shortDescription": "शुरुआती छात्रों के लिए मुफ्त प्रोग्रामिंग वीडियो लेक्चर ऐप।"
+      },
+      {
+        "name": "TernaLogin",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1625035722/TernaLogin-banner_u7qp2t.jpg",
+        "type": "Android ऐप",
+        "techStack": "Java Firebase AndroidStudio",
+        "sourceCode": "https://github.com/skgupta77159/TernaLogin",
+        "demoLink": "https://drive.google.com/file/d/1DQHAKzjwdxySw0hvn0UTYVFav9Db4n5B/view?usp=sharing",
+        "shortDescription": "TernaLogin एक अटेंडेंस सिस्टम ऐप है जो फैकल्टी को छात्र उपस्थिति लेने, प्रबंधित करने और विश्लेषण करने में मदद करता है।"
+      }
+    ]
+  },
+
+  "blog": {
+    "blogsTitle": "ब्लॉग और लेख ✍️",
+    "blogs": [
+      {
+        "title": "वेबेक्स स्पेस में डेवलपमेंट से लेकर प्रोडक्शन तक अपना बॉट बनाने के लिए पूरी गाइड",
+        "description": "वेबेक्स ऐप हब पर बॉट बनाने, प्रावधान करने और प्रकाशित करने के पूरे जीवनचक्र को कवर करने वाली एक व्यापक गाइड।",
+        "link": "https://medium.com/videowiki-pt/the-complete-guide-to-creating-your-bot-in-webex-space-from-dev-to-prod-7af29d9372f1"
+      }
+    ]
+  },
+
+  "certificate": {
+    "certificateTitle": "प्रमाणपत्र 🏆",
+    "certificates": [
+      {
+        "title": "Linux",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/Sushil_KumarGupta-NDG_Linux_Essent-certificate_zzt5z9_lij0ru.webp"
+      },
+      {
+        "title": "AWS",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/Coursera_NVYJUA6PNKJ9_msco9s_jmxpyb.webp"
+      },
+      {
+        "title": "Google",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/javascript_hmeymr_zxuif3.webp"
+      },
+      {
+        "title": "tcs",
+        "image": "https://res.cloudinary.com/ddktczzsr/image/upload/v1696431250/webp%20files/tcs_w1wnno_pdmj8b.webp"
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "मुझसे संपर्क करें!",
+    "subtitle": "किसी प्रोजेक्ट पर चर्चा करना चाहते हैं या बस नमस्ते कहना चाहते हैं? मैं सभी अवसरों और बातचीत के लिए खुला हूँ।",
+    "thankYouMessage": "आपके समय के लिए धन्यवाद! आपका दिन शुभ हो, और बेझिझक मुझसे LinkedIn पर जुड़ें।"
+  },
+
+  "footer": {
+    "credit": "सुशील कुमार गुप्ता द्वारा ❣️ के साथ डिजाइन और निर्मित"
+  }
+}
